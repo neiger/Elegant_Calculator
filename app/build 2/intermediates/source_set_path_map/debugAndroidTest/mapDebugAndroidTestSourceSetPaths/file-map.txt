@@ -1,0 +1,6 @@
+com.example.new_sample.test.app-jetified-tracing-1.1.0-0 /Users/neigerserrano/.gradle/caches/transforms-4/744b69ae41fca9c0d6910940132d490b/transformed/jetified-tracing-1.1.0/res
+com.example.new_sample.test.app-jetified-core-1.6.1-1 /Users/neigerserrano/.gradle/caches/transforms-4/ed5cd8e4e7e89a7a5160a0129180f62e/transformed/jetified-core-1.6.1/res
+com.example.new_sample.test.app-androidTest-2 /Users/neigerserrano/Documents/GitHub/Elegant_Calculator/app/build/generated/res/resValues/androidTest/debug
+com.example.new_sample.test.app-mergeDebugAndroidTestResources-3 /Users/neigerserrano/Documents/GitHub/Elegant_Calculator/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.new_sample.test.app-mergeDebugAndroidTestResources-4 /Users/neigerserrano/Documents/GitHub/Elegant_Calculator/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.new_sample.test.app-debugAndroidTest-5 /Users/neigerserrano/Documents/GitHub/Elegant_Calculator/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
