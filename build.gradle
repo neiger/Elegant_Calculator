@@ -15,6 +15,18 @@ buildscript {
         // in the individual module build.gradle files
     }
 }
+plugins {
+    id 'org.jetbrains.kotlin.jvm'
+}
+repositories {
+    mavenCentral()
+}
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+}
+kotlin {
+    jvmToolchain(8)
+}
 
 allprojects {
     repositories {
@@ -23,6 +35,13 @@ allprojects {
         
     }
 }
+
+//java {
+//    toolchain {
+//        download.set(false)
+//    }
+//}
+
 
 tasks.register('customclean', Delete) {
     delete rootProject.buildDir
