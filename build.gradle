@@ -16,14 +16,23 @@ buildscript {
     }
 }
 plugins {
-    id 'org.jetbrains.kotlin.jvm'
+    id 'org.jetbrains.kotlin.jvm' version '2.1.0'
 }
+//
+//plugins {
+//    id 'org.jetbrains.kotlin.jvm'
+//}
 repositories {
     mavenCentral()
 }
+//dependencies {
+//    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+//}
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    testImplementation "org.jetbrains.kotlin:kotlin-test"
 }
+
 kotlin {
     jvmToolchain(8)
 }
